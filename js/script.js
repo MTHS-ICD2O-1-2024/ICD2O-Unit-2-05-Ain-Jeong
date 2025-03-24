@@ -19,7 +19,6 @@ function calculateIncomeTax() {
   const taxes = hoursWorked * hourlyWage * 0.18
 
   // output
-  // output
   document.getElementById("pay").innerHTML = `Your pay will be: $${pay.toFixed(
     2
   )}<br>The government will take: $${taxes.toFixed(2)}`
